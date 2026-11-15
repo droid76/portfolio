@@ -308,3 +308,10 @@ input:focus, textarea:focus { outline: none; border-color: rgba(255, 93, 108, 0.
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* 404 page */
+.notfound { grid-template-areas: none; grid-template-columns: 1fr; max-width: 560px; min-height: 100dvh; align-content: center; }
+.t-404 { padding: 32px; }
+.t-404 h1 { font-size: clamp(26px, 4vw, 34px); line-height: 1.2; letter-spacing: -0.02em; }
+.t-404 p:not(.label) { margin: 12px 0 24px; font-size: 16px; }
+.t-404 .label { font-size: 14px; }
